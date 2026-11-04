@@ -273,8 +273,8 @@ Asunto: Derecho de petición — trámite del proyecto de ley "Ley Anticapuchos"
 Yo, ${f.nombre || "[Nombre]"}, identificado(a) con cédula de ciudadanía ${f.cedula || "[Cédula]"}, en ejercicio del derecho fundamental de petición consagrado en el artículo 23 de la Constitución Política y regulado por la Ley 1755 de 2015, respetuosamente solicito que, cada entidad en lo de su competencia, informe:
 
 1. El número de radicado del proyecto, la Gaceta del Congreso en la que fue publicado y los ponentes designados para primer debate.
-2. El estado actual del trámite, la fecha prevista para su discusión en la Comisión Primera de la Cámara y las razones por las que no se ha debatido.
-3. El texto de la ponencia para primer debate y las modificaciones propuestas frente al texto radicado, en especial sobre la pena de prisión (48 a 96 meses) y la multa (50 a 200 SMMLV).
+2. El acta y el resultado de las votaciones del primer debate en la Comisión Primera de la Cámara (4 de noviembre de 2026), y la fecha prevista para el segundo debate en la plenaria de la Cámara.
+3. El texto aprobado en primer debate y sus cambios frente al texto radicado, en especial sobre la pena de prisión (48 o 54 a 96 meses) y la multa (50 a 200 SMMLV), y si se solicitó o se dará mensaje de urgencia.
 4. Los conceptos emitidos o solicitados al Gobierno Nacional, al Consejo Superior de Política Criminal, a la Fiscalía General de la Nación y a la Defensoría del Pueblo.
 5. Las cifras y estudios que sustentan la necesidad del nuevo tipo penal, y el análisis de impacto fiscal y penitenciario (artículo 7 de la Ley 819 de 2003).
 6. Las garantías previstas para que la norma no se use para restringir o criminalizar la protesta pacífica (artículo 37 de la Constitución).

@@ -37,6 +37,21 @@ async function noticias(q, tema) {
   }).filter(n => relevante(n.titulo, tema));
 }
 
+// Bing Noticias: trae enlace directo al medio y foto real del artículo
+async function bing(q, tema) {
+  try {
+    const url = `https://www.bing.com/news/search?q=${encodeURIComponent(q)}&format=rss&setlang=es&cc=CO&qft=sortbydate%3d%221%22`;
+    const xml = await (await fetch(url, { headers: { "User-Agent": UA } })).text();
+    return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(([, it]) => {
+      let link = tag(it, "link");
+      const u = link.match(/[?&]url=([^&]+)/); if (u) link = decodeURIComponent(u[1]);
+      let img = tag(it, "News:Image");
+      if (img) img = img.replace(/&w=\d+&h=\d+.*$/, "") + "&w=1200&h=675&c=7";
+      return { titulo: tag(it, "title"), medio: tag(it, "News:Source"), fecha: new Date(tag(it, "pubDate")).toISOString(), url: link, imagen: img, tema };
+    }).filter(n => n.titulo && relevante(n.titulo, tema));
+  } catch (e) { console.log("Bing:", e.message); return []; }
+}
+
 async function fotoReal(url) {
   try {
     const r = await fetch(url, { headers: { "User-Agent": UA }, redirect: "follow", signal: AbortSignal.timeout(9000) });
@@ -88,9 +103,28 @@ for (const { q, tema } of CONSULTAS) {
   try { for (const n of await noticias(q, tema)) if (!mapa.has(key(n.titulo))) mapa.set(key(n.titulo), n); }
   catch (e) { console.log("Falló consulta", q, e.message); }
 }
+// Con Bing: nuevas noticias con enlace directo, y fotos para las que ya teníamos
+for (const { q, tema } of CONSULTAS) {
+  for (const b of await bing(q.replace(/"/g, ""), tema)) {
+    const k = key(b.titulo), ya = mapa.get(k);
+    if (!ya) mapa.set(k, b);
+    else if (!ya.imagen && b.imagen) { ya.imagen = b.imagen; if (/news\.google/.test(ya.url)) ya.url = b.url; }
+  }
+}
+// Noticias de Google sin foto: buscar la foto en la noticia de Bing más parecida del mismo medio
+const conFoto = [...mapa.values()].filter(n => n.imagen && !/news\.google/.test(n.url));
+const palabras = s => new Set(s.toLowerCase().normalize("NFD").replace(/[^a-z0-9 ]/g, "").split(" ").filter(w => w.length > 4));
+for (const n of mapa.values()) {
+  if (n.imagen) continue;
+  const a = palabras(n.titulo);
+  const par = conFoto.find(b => b.medio && n.medio && b.medio.toLowerCase().slice(0, 6) === n.medio.toLowerCase().slice(0, 6)
+    && [...palabras(b.titulo)].filter(w => a.has(w)).length >= 3);
+  if (par) { n.imagen = par.imagen; n.url = par.url; }
+}
+
 const lista = [...mapa.values()].sort((a, b) => new Date(b.fecha) - new Date(a.fecha)).slice(0, 100);
 let revisadas = 0;
-for (const n of lista) if (!n.imagen && revisadas < 30) { n.imagen = await fotoReal(n.url); revisadas++; }
+for (const n of lista) if (!n.imagen && revisadas < 40) { n.imagen = await fotoReal(n.url); revisadas++; }
 
 const vmap = new Map((prev.videos || []).map(v => [v.id, v]));
 for (const q of VIDEOS_Q) for (const v of await videos(q)) vmap.set(v.id, { ...vmap.get(v.id), ...v, visto: vmap.get(v.id)?.visto || new Date().toISOString() });

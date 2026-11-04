@@ -4,17 +4,17 @@
 window.CONTENIDO = {
   SMMLV_2026: 1750905, // Decreto 1469 de 2025 (verificado nov 2026)
   RADICADO: "2026-09-01T00:00:00-05:00",
-  DEBATES_APROBADOS: 0,
+  DEBATES_APROBADOS: 1,
 
   ESTADO: {
-    es: "Pendiente de primer debate en la Comisión Primera de la Cámara. Tiene ponencia positiva. El 21 de octubre su agendamiento generó un choque entre Arizabaleta y Uscátegui, y la discusión quedó aplazada.",
-    en: "Awaiting first debate in the House First Committee. It has a favorable report. On October 21 its scheduling sparked a clash between Arizabaleta and Uscátegui, and the discussion was postponed."
+    es: "Aprobado en primer debate el 4 de noviembre de 2026: la Comisión Primera de la Cámara votó la ponencia positiva 21 a 4 y negó el archivo (21 votos contra 15). Ahora pasa a la plenaria de la Cámara. Arizabaleta pidió mensaje de urgencia.",
+    en: "Passed first debate on November 4, 2026: the House First Committee approved the report 21–4 and rejected shelving it (21–15). It now goes to the House floor. Arizabaleta asked for an urgency message."
   },
 
   ARTICULOS: [
     { n: "Art. 1", es: ["Objeto", "Proteger el orden público, la seguridad ciudadana y la protesta pacífica, castigando a quien oculte su identidad para facilitar delitos en manifestaciones."], en: ["Purpose", "Protect public order, citizen safety and peaceful protest by punishing those who hide their identity to commit crimes at demonstrations."] },
     { n: "Art. 2", es: ["Definiciones", "Define ocultamiento de identidad (prendas, máscaras, pasamontañas para no ser identificado al delinquir), acto vandálico y artefactos peligrosos de fabricación artesanal."], en: ["Definitions", "Defines identity concealment (clothing, masks, balaclavas used to avoid identification while committing a crime), vandalism and homemade dangerous devices."] },
-    { n: "Art. 3", es: ["Delito nuevo", "Actos vandálicos mediante ocultamiento de identidad: 48 a 96 meses de prisión y multa de 50 a 200 SMMLV. La pena sube de la mitad a dos terceras partes si usa explosivos o sustancias corrosivas, si ataca colegios, hospitales, bienes culturales o infraestructura de servicios públicos, o si altera gravemente el orden público."], en: ["New crime", "Vandalism through identity concealment: 48 to 96 months in prison and a fine of 50 to 200 minimum wages. Increased by half to two-thirds with explosives or corrosives, attacks on schools, hospitals, heritage or utilities, or serious disruption of public order."] },
+    { n: "Art. 3", es: ["Delito nuevo", "Actos vandálicos mediante ocultamiento de identidad: 54 a 96 meses de prisión (texto aprobado en primer debate; el radicado decía 48) y multa de 50 a 200 SMMLV. La pena sube de la mitad a dos terceras partes si usa explosivos o sustancias corrosivas, si ataca colegios, hospitales, bienes culturales o infraestructura de servicios públicos, o si altera gravemente el orden público."], en: ["New crime", "Vandalism through identity concealment: 54 to 96 months in prison (text approved in first debate; the filed text said 48) and a fine of 50 to 200 minimum wages. Increased by half to two-thirds with explosives or corrosives, attacks on schools, hospitals, heritage or utilities, or serious disruption of public order."] },
     { n: "Art. 4", es: ["Bloqueo de vías (art. 353A)", "Sube la pena de 24–48 a 48–96 meses y la multa de 13–75 a 50–200 SMMLV, con inhabilidad para funciones públicas. No aplica a movilizaciones con permiso de la autoridad."], en: ["Road blockades (art. 353A)", "Raises the sentence from 24–48 to 48–96 months and the fine from 13–75 to 50–200 minimum wages, plus a ban from public office. Does not apply to authorized marches."] },
     { n: "Art. 5", es: ["Protección de la protesta", "La ley no podrá usarse para restringir, limitar o criminalizar la protesta pacífica."], en: ["Protest safeguard", "The law may not be used to restrict, limit or criminalize peaceful protest."] },
     { n: "Art. 6", es: ["Interpretación", "Se aplica conforme a la Constitución, los tratados de derechos humanos y la jurisprudencia de las altas cortes."], en: ["Interpretation", "Applied in line with the Constitution, human rights treaties and high-court case law."] },
@@ -22,15 +22,15 @@ window.CONTENIDO = {
   ],
 
   NOTA_PENAS: {
-    es: "El texto publicado dice 48 a 96 meses; algunos medios reportaron 54 a 96. Se aclarará con la ponencia oficial en la Gaceta del Congreso.",
-    en: "The published text says 48 to 96 months; some outlets reported 54 to 96. The official report in the Congressional Gazette will settle it."
+    es: "El texto radicado decía 48 a 96 meses; el articulado aprobado en primer debate, según los medios, quedó en 54 a 96. El texto definitivo saldrá en la Gaceta del Congreso.",
+    en: "The filed text said 48 to 96 months; the text approved in first debate, per the media, sets 54 to 96. The final text will appear in the Congressional Gazette."
   },
 
   ROAD: [
     { es: "Radicado", en: "Filed", done: true },
     { es: "Ponencia 1er debate", en: "1st debate report", done: true },
-    { es: "Comisión Primera Cámara", en: "House 1st Committee", now: true },
-    { es: "Plenaria Cámara", en: "House floor" },
+    { es: "Comisión Primera Cámara", en: "House 1st Committee", done: true },
+    { es: "Plenaria Cámara", en: "House floor", now: true },
     { es: "Comisión Primera Senado", en: "Senate 1st Committee" },
     { es: "Plenaria Senado", en: "Senate floor" },
     { es: "Sanción presidencial", en: "Presidential signature" }
@@ -42,18 +42,20 @@ window.CONTENIDO = {
     { f: "2026-09-01", es: "Radicación en la Cámara por una bancada multipartidista: Arizabaleta y Daniel Briceño (CD), Julio César Triana (Cambio Radical) y Guillermo Alvira (Conservador), entre otros.", en: "Filed in the House by a multiparty group: Arizabaleta and Daniel Briceño (CD), Julio César Triana (Cambio Radical) and Guillermo Alvira (Conservative), among others." },
     { f: "2026-09", es: "Queda con ponencia positiva para primer debate en la Comisión Primera de la Cámara.", en: "Receives a favorable report for first debate in the House First Committee." },
     { f: "2026-10-21", es: "Choque entre Arizabaleta y José Jaime Uscátegui por el agendamiento del proyecto. Uscátegui pidió priorizar seis actos legislativos pendientes. El debate quedó aplazado.", en: "Clash between Arizabaleta and José Jaime Uscátegui over scheduling. Uscátegui asked to prioritize six pending constitutional amendments. Debate postponed." },
-    { f: "2026-11-04", es: "Sigue pendiente el primer debate. Esta app vigila cada movimiento.", en: "First debate still pending. This app tracks every move." }
+    { f: "2026-11-04", es: "Aprobado en primer debate. La Comisión Primera negó cuatro proposiciones de archivo (tres del Pacto Histórico y una del Partido Verde) por 21 votos contra 15, y aprobó la ponencia 21 a 4. Sigue la plenaria de la Cámara.", en: "Passed first debate. The First Committee rejected four motions to shelve it (three from Pacto Histórico, one from the Green Party) 21–15 and approved the report 21–4. Next: House floor." }
   ],
 
   PRO: [
     { es: "Sus autores dicen que no prohíbe la capucha: castiga solo a quien la usa para cometer delitos.", en: "Authors say it does not ban hoods: it only punishes those who use them to commit crimes." },
     { es: "Triana argumenta que el artículo 37 de la Constitución protege la protesta, pero permite que la ley le fije límites.", en: "Triana argues Article 37 of the Constitution protects protest but allows the law to set limits." },
     { es: "Arizabaleta sostiene que casi nadie que protesta en paz se tapa la cara y que la norma da herramientas a la Fuerza Pública.", en: "Arizabaleta says almost no peaceful protester covers their face and the rule gives tools to law enforcement." },
+    { es: "En el primer debate, Arizabaleta propuso llamarla “Ley Valentía”: según él, quien defiende una causa justa no necesita capucha.", en: "In the first debate, Arizabaleta suggested calling it the “Courage Law”: in his view, those defending a just cause need no hood." },
     { es: "Lo ligan a los bloqueos de vías y daños a comerciantes e infraestructura desde el paro de 2021, sobre todo en Cali.", en: "They link it to road blockades and damage to businesses and infrastructure since the 2021 strike, especially in Cali." }
   ],
   CON: [
     { es: "Mondragón (Pacto Histórico) citó que cubrirse el rostro puede ser parte legítima de la expresión y la protesta pacífica.", en: "Mondragón (Pacto Histórico) cited that covering one's face can be a legitimate part of expression and peaceful protest." },
     { es: "Críticos advierten que podría usarse para estigmatizar o criminalizar la protesta, aunque el artículo 5 diga lo contrario.", en: "Critics warn it could be used to stigmatize or criminalize protest, even though Article 5 says otherwise." },
+    { es: "En el primer debate, Laura Beltrán (Pacto Histórico) dijo que el objetivo real es criminalizar la protesta social; Óscar Benavides (comunidades negras) anunció que no lo apoyará.", en: "In the first debate, Laura Beltrán (Pacto Histórico) said the real goal is to criminalize social protest; Óscar Benavides (Afro-Colombian seat) said he will not support it." },
     { es: "Ya existe un agravante en el Código Penal (art. 353B) cuando se bloquean vías con el rostro cubierto, avalado por la Corte en la C-014 de 2023.", en: "The Penal Code already has an aggravating factor (art. 353B) for blocking roads with a covered face, upheld by the Court in C-014/2023." },
     { es: "La exposición de motivos no trae cifras propias sobre el aumento de la violencia en protestas.", en: "The explanatory statement offers no figures of its own on rising protest violence." }
   ],
@@ -77,6 +79,7 @@ window.CONTENIDO = {
       { t: "Ley Miguel Uribe Turbay", es: "Autor. Modifica en parte el régimen de responsabilidad penal para adolescentes de 14 a 17 años que cometan ciertos delitos graves.", en: "Author. Partly amends the criminal responsibility regime for 14–17 year-olds who commit certain serious crimes." }
     ],
     hechos: [
+      { f: "2026-11-04", es: "Como autor y ponente, saca adelante el primer debate (21 a 4). Celebra en X con un “viva Colombia” y pide mensaje de urgencia al Gobierno.", en: "As author and rapporteur, wins the first debate (21–4). Celebrates on X with a “long live Colombia” and asks the Government for an urgency message." },
       { f: "2026-10-21", es: "Choca con su copartidario José Jaime Uscátegui en el recinto por el agendamiento de la Ley Anticapuchos; Daniel Briceño los separa.", en: "Clashes with party colleague José Jaime Uscátegui over scheduling the Anti-Hood Bill; Daniel Briceño separates them." },
       { f: "2026-10-02", es: "Responde a la representante Aída Quilcué, que había llamado “ilegítimo” al presidente Abelardo de la Espriella, y critica las movilizaciones de la oposición.", en: "Replies to Rep. Aída Quilcué, who had called President Abelardo de la Espriella “illegitimate”, and criticizes opposition marches." },
       { f: "2026-09-01", es: "Radica la Ley Anticapuchos con una bancada multipartidista. Dice que no está en contra de la protesta.", en: "Files the Anti-Hood Bill with a multiparty group. Says he is not against protest." },
@@ -104,6 +107,9 @@ window.CONTENIDO = {
     ["Cambio – Radican Ley Anticapuchos", "https://cambiocolombia.com/poder/articulo/2026/9/radican-la-ley-anticapuchos-el-proyecto-que-busca-penalizar-a-quienes-se-cubren-el-rostro-para-vandalizar-en-las-protestas/"],
     ["Crónica del Quindío", "https://cronicadelquindio.com/actualidad/colombia/congreso-radica-proyecto-de-ley-anticapuchos-contra-el-vandalismo/"],
     ["Publimetro – Encontronazo en el Congreso (21 oct)", "https://www.publimetro.co/noticias/2026/10/21/casi-se-van-a-las-manos-congresistas-del-centro-democratico-protagonizaron-encontronazo-en-el-recinto/"],
+    ["Infobae – Aprobada la ponencia 21 a 4 (4 nov)", "https://www.infobae.com/colombia/2026/11/04/avanza-en-la-camara-de-representantes-ley-anticapuchos-en-que-consiste-el-proyecto/"],
+    ["CW+ – Pasó su primer debate (4 nov)", "https://cwmas.com.co/poder/2026/11/04/ley-anticapuchos-primer-debate-camara/"],
+    ["El Nuevo Siglo – Avanza en Comisión Primera", "https://www.elnuevosiglo.com.co/politica/avanza-proyecto-de-ley-anticapuchos-en-comision-primera-de-la-camara"],
     ["Noticias RCN", "https://www.noticiasrcn.com/colombia/proyecto-de-ley-con-carcel-para-encapuchados-criminales-en-protestas-1056900"],
     ["Cambio – Debate Arizabaleta vs. Mondragón", "https://cambiocolombia.com/personajes/articulo/2026/8/quien-protesta-no-necesita-capucha-fuerte-choque-por-la-polemica-ley-anticapuchos"],
     ["Cámara – Perfil de Jaime Arizabaleta", "https://www.camara.gov.co/representantes/jaime-ignacio-arizabaleta-fajardo"],

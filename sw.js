@@ -1,5 +1,5 @@
 // Service worker — Ley Anticapuchos al Día
-const V = "anticapuchos-v2";
+const V = "anticapuchos-v3";
 const CORE = ["./", "index.html", "styles.css", "app.js", "data/contenido.js", "manifest.json", "img/icon-192.png"];
 
 self.addEventListener("install", e => { e.waitUntil(caches.open(V).then(c => c.addAll(CORE))); self.skipWaiting(); });
