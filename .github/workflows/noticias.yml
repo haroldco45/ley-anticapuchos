@@ -30,7 +30,8 @@ jobs:
           if [ ! -f img/og.jpg ]; then
             curl -sL -A "Mozilla/5.0 VibrasBot" -o /tmp/og-src.jpg \
               "https://commons.wikimedia.org/wiki/Special:FilePath/Puerto_Resistencia_05.jpg?width=1600"
-            convert /tmp/og-src.jpg -resize 1200x630^ -gravity center -extent 1200x630 -quality 82 img/og.jpg
+            pip install --quiet pillow
+            python3 -c "from PIL import Image, ImageOps; ImageOps.fit(Image.open('/tmp/og-src.jpg').convert('RGB'), (1200,630)).save('img/og.jpg', quality=82)"
           fi
 
       - name: Traer noticias reales
