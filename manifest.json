@@ -1,0 +1,15 @@
+{
+  "name": "Ley Anticapuchos al Día",
+  "short_name": "Anticapuchos",
+  "description": "Seguimiento ciudadano al proyecto de Ley Anticapuchos — Vibras Positivas HM",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0f1115",
+  "theme_color": "#0f1115",
+  "lang": "es-CO",
+  "icons": [
+    { "src": "img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

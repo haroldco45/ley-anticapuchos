@@ -1,0 +1,72 @@
+{
+  "actualizado": "2026-11-04T18:40:00-05:00",
+  "fuente": "carga inicial (el robot la reemplaza cada 30 minutos)",
+  "fotos": [],
+  "videos": [],
+  "noticias": [
+    {
+      "titulo": "Casi se van a las manos: congresistas del Centro Democrático protagonizaron encontronazo en el recinto",
+      "medio": "Publimetro",
+      "fecha": "2026-10-21T12:00:00-05:00",
+      "url": "https://www.publimetro.co/noticias/2026/10/21/casi-se-van-a-las-manos-congresistas-del-centro-democratico-protagonizaron-encontronazo-en-el-recinto/",
+      "imagen": "",
+      "tema": "arizabaleta"
+    },
+    {
+      "titulo": "Arrancó el debate de la Ley de Sometimiento; choque por la Ley Anticapuchos",
+      "medio": "La Silla Vacía",
+      "fecha": "2026-10-21T10:00:00-05:00",
+      "url": "https://www.lasillavacia.com/en-vivo/arranco-el-debate-de-ley-de-sometimiento-negado-el-archivo/",
+      "imagen": "",
+      "tema": "proyecto"
+    },
+    {
+      "titulo": "“Abelardo es su presidente, así le duela”: Jaime Arizabaleta arremete contra la representante Aida Quilcué",
+      "medio": "Publimetro",
+      "fecha": "2026-10-02T12:00:00-05:00",
+      "url": "https://www.publimetro.co/noticias/2026/10/02/abelardo-es-su-presidente-asi-le-duela-jaime-arizabaleta-arremete-contra-la-representante-aida-quilcue/",
+      "imagen": "",
+      "tema": "arizabaleta"
+    },
+    {
+      "titulo": "Buscan ponerle freno a los encapuchados que cometan crímenes durante protestas",
+      "medio": "Noticias RCN",
+      "fecha": "2026-09-02T12:00:00-05:00",
+      "url": "https://www.noticiasrcn.com/colombia/proyecto-de-ley-con-carcel-para-encapuchados-criminales-en-protestas-1056900",
+      "imagen": "",
+      "tema": "proyecto"
+    },
+    {
+      "titulo": "Radican polémico proyecto de ley ‘Anticapuchos’ contra quienes se tapen la cara para cometer actos vandálicos",
+      "medio": "Publimetro",
+      "fecha": "2026-09-01T18:00:00-05:00",
+      "url": "https://www.publimetro.co/noticias/2026/09/01/radican-polemico-proyecto-de-ley-anticapuchos-contra-quienes-se-tapen-la-cara-para-cometer-actos-vandalicos/",
+      "imagen": "",
+      "tema": "proyecto"
+    },
+    {
+      "titulo": "Radican Ley Anticapuchos: el proyecto busca penalizar a quienes se cubren el rostro para vandalizar en las protestas",
+      "medio": "Cambio",
+      "fecha": "2026-09-01T16:00:00-05:00",
+      "url": "https://cambiocolombia.com/poder/articulo/2026/9/radican-la-ley-anticapuchos-el-proyecto-que-busca-penalizar-a-quienes-se-cubren-el-rostro-para-vandalizar-en-las-protestas/",
+      "imagen": "",
+      "tema": "proyecto"
+    },
+    {
+      "titulo": "Congreso radica proyecto de Ley Anticapuchos contra el vandalismo",
+      "medio": "Crónica del Quindío",
+      "fecha": "2026-09-01T14:00:00-05:00",
+      "url": "https://cronicadelquindio.com/actualidad/colombia/congreso-radica-proyecto-de-ley-anticapuchos-contra-el-vandalismo/",
+      "imagen": "",
+      "tema": "proyecto"
+    },
+    {
+      "titulo": "“Quien protesta no necesita capucha”: fuerte choque por la polémica Ley Anticapuchos",
+      "medio": "Cambio",
+      "fecha": "2026-08-28T09:00:00-05:00",
+      "url": "https://cambiocolombia.com/personajes/articulo/2026/8/quien-protesta-no-necesita-capucha-fuerte-choque-por-la-polemica-ley-anticapuchos",
+      "imagen": "",
+      "tema": "proyecto"
+    }
+  ]
+}

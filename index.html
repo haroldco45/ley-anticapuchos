@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ley Anticapuchos al Día · Seguimiento a Jaime Arizabaleta · Vibras Positivas HM</title>
+<meta name="description" content="Seguimiento ciudadano al proyecto de Ley Anticapuchos y al representante Jaime Arizabaleta: trámite, penas, las dos posturas, noticias y videos reales cada 30 minutos y derecho de petición.">
+<meta name="theme-color" content="#0b0d12">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="img/icon-192.png">
+<link rel="apple-touch-icon" href="img/icon-192.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Vibras Positivas HM">
+<meta property="og:title" content="Ley Anticapuchos al Día: qué propone, en qué va y qué hace Arizabaleta">
+<meta property="og:description" content="Cárcel para quien se tape la cara para vandalizar en protestas. Trámite, penas, las dos posturas, noticias y videos reales, y derecho de petición.">
+<meta property="og:url" content="https://ley-anticapuchos.netlify.app/">
+<meta property="og:image" content="https://ley-anticapuchos.netlify.app/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Manifestación en Cali (foto real, Wikimedia Commons)">
+<meta property="og:locale" content="es_CO">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ley Anticapuchos al Día">
+<meta name="twitter:description" content="Seguimiento ciudadano al proyecto Anticapuchos y a Jaime Arizabaleta.">
+<meta name="twitter:image" content="https://ley-anticapuchos.netlify.app/img/og.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="#inicio"><span class="brand-a">Ley Anticapuchos</span><span class="brand-b" data-i18n="al_dia">al Día</span></a>
+  <nav class="menu">
+    <a href="#hoy" data-i18n="nav_hoy">Hoy</a>
+    <a href="#arizabaleta">Arizabaleta</a>
+    <a href="#propone" data-i18n="nav_propone">Qué propone</a>
+    <a href="#tramite" data-i18n="nav_tramite">Trámite</a>
+    <a href="#debate" data-i18n="nav_debate">Debate</a>
+    <a href="#videos" data-i18n="nav_videos">Videos</a>
+    <a href="#noticias" data-i18n="nav_noticias">Noticias</a>
+    <a href="#peticion" data-i18n="nav_peticion">Petición</a>
+  </nav>
+  <div class="actions">
+    <button id="btnLang" class="btn ghost" aria-label="Cambiar idioma">EN</button>
+    <button id="btnRefresh" class="btn solid" data-i18n="actualizar">Actualizar</button>
+  </div>
+</header>
+
+<!-- PORTADA: fotos actuales de las noticias, rotando -->
+<section id="inicio" class="hero">
+  <div id="heroSlides" class="hero-slides"></div>
+  <div class="hero-shade"></div>
+  <div class="hero-content">
+    <p class="kicker"><span class="live-bar"></span><span data-i18n="seguimiento">Seguimiento ciudadano en tiempo real</span></p>
+    <h1 data-i18n="hero_t">¿Cárcel para quien se tape la cara para vandalizar en una protesta?</h1>
+    <p class="lead" data-i18n="hero_p">El proyecto de Ley Anticapuchos, del representante Jaime Arizabaleta y otros congresistas, crea un delito nuevo y sube las penas por bloquear vías. Aquí sigues el proyecto y a su autor, día a día.</p>
+    <div class="kpis">
+      <div class="kpi"><b>48–96</b><span data-i18n="kpi_meses">meses de prisión</span></div>
+      <div class="kpi"><b>50–200</b><span data-i18n="kpi_smmlv">salarios mínimos de multa</span></div>
+      <div class="kpi"><b id="kpiDebates">0 / 4</b><span data-i18n="kpi_debates">debates aprobados</span></div>
+      <div class="kpi"><b id="kpiDias">—</b><span data-i18n="kpi_dias">días desde la radicación</span></div>
+    </div>
+    <p class="hero-foot"><span data-i18n="hora_col">Hora de Colombia</span> <b id="clock">—</b> <span class="sep">|</span> <span id="heroCredit"></span></p>
+  </div>
+</section>
+
+<!-- HOY -->
+<section id="hoy" class="block">
+  <div class="head">
+    <p class="eyebrow" data-i18n="hoy_ey">Lo último</p>
+    <h2 data-i18n="hoy_t">Hoy</h2>
+    <p class="muted"><span data-i18n="hoy_sub">Se actualiza cada vez que entras.</span> <span id="hoyStamp"></span></p>
+  </div>
+  <div id="hoyStatus" class="status"></div>
+  <div id="hoyList" class="grid-news"></div>
+</section>
+
+<!-- ARIZABALETA -->
+<section id="arizabaleta" class="block band">
+  <div class="inner">
+    <div class="head">
+      <p class="eyebrow" data-i18n="ari_ey">Seguimiento al autor</p>
+      <h2>Jaime Arizabaleta</h2>
+      <p class="muted" data-i18n="ari_sub">Qué hace, qué propone y qué dicen de él los medios. Información pública, verificada con fuentes.</p>
+    </div>
+    <div class="ari-grid">
+      <dl class="perfil" id="ariPerfil"></dl>
+      <div>
+        <h3 class="h3" data-i18n="ari_proy">Sus proyectos</h3>
+        <div id="ariProy" class="proy"></div>
+        <h3 class="h3" data-i18n="ari_hechos">Lo que ha hecho</h3>
+        <ul id="ariHechos" class="timeline light"></ul>
+        <div id="ariLinks" class="links"></div>
+      </div>
+    </div>
+    <h3 class="h3" data-i18n="ari_medios">Arizabaleta en los medios</h3>
+    <div id="ariNews" class="grid-news"></div>
+  </div>
+</section>
+
+<!-- QUÉ PROPONE -->
+<section id="propone" class="block">
+  <div class="head">
+    <p class="eyebrow" data-i18n="prop_ey">El texto</p>
+    <h2 data-i18n="prop_t">Qué propone, artículo por artículo</h2>
+    <p class="muted" data-i18n="prop_sub">Según el texto del proyecto publicado por el Centro Democrático (20 de julio de 2026).</p>
+  </div>
+  <ol class="articles" id="articulos"></ol>
+
+  <div class="calc">
+    <div>
+      <h3 class="h3" data-i18n="calc_t">¿Cuánto sería la multa en plata?</h3>
+      <p class="muted" data-i18n="calc_sub">Con el salario mínimo 2026: $1.750.905 (Decreto 1469 de 2025).</p>
+      <input id="smmlvRange" type="range" min="50" max="200" value="50" step="1" aria-label="SMMLV">
+      <div class="calc-out"><b id="smmlvN">50</b> <span data-i18n="smmlv">salarios mínimos</span> = <b id="smmlvCOP">$87.545.250</b></div>
+    </div>
+    <div class="compare">
+      <div><small data-i18n="hoy_353a">Hoy (art. 353A, bloquear vías)</small><b>24–48 <span data-i18n="meses">meses</span></b><span>13–75 SMMLV</span></div>
+      <div class="hot"><small data-i18n="prop_353a">Con el proyecto</small><b>48–96 <span data-i18n="meses">meses</span></b><span>50–200 SMMLV</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- TRÁMITE -->
+<section id="tramite" class="block dark">
+  <div class="inner">
+    <div class="head">
+      <p class="eyebrow" data-i18n="tram_ey">El camino</p>
+      <h2 data-i18n="tram_t">En qué va</h2>
+      <p class="muted" data-i18n="tram_sub">Un proyecto de ley necesita cuatro debates: Comisión Primera y plenaria de Cámara, Comisión Primera y plenaria de Senado. Luego, sanción presidencial.</p>
+    </div>
+    <div class="road" id="road"></div>
+    <ul class="timeline" id="timeline"></ul>
+  </div>
+</section>
+
+<!-- DEBATE -->
+<section id="debate" class="block">
+  <div class="head">
+    <p class="eyebrow" data-i18n="deb_ey">Las posturas</p>
+    <h2 data-i18n="deb_t">A favor y en contra</h2>
+    <p class="muted" data-i18n="deb_sub">Lo que dicen quienes lo defienden y quienes lo critican. Usted decide.</p>
+  </div>
+  <div class="versus">
+    <article class="side pro"><h3 data-i18n="pro_t">A favor</h3><ul id="proList"></ul></article>
+    <article class="side con"><h3 data-i18n="con_t">En contra o con reparos</h3><ul id="conList"></ul></article>
+  </div>
+  <h3 class="h3 mt" data-i18n="cortes_t">Lo que ha dicho la Corte Constitucional (citado en el proyecto)</h3>
+  <div class="chips" id="cortes"></div>
+</section>
+
+<!-- VIDEOS -->
+<section id="videos" class="block dark">
+  <div class="inner">
+    <div class="head">
+      <p class="eyebrow" data-i18n="vid_ey">En video</p>
+      <h2 data-i18n="vid_t">Videos recientes</h2>
+      <p class="muted" data-i18n="vid_sub">El robot busca en YouTube los videos más nuevos del proyecto y de Arizabaleta.</p>
+    </div>
+    <div id="videoList" class="grid-video"></div>
+  </div>
+</section>
+
+<!-- NOTICIAS -->
+<section id="noticias" class="block">
+  <div class="head">
+    <p class="eyebrow" data-i18n="not_ey">Todas las noticias</p>
+    <h2 data-i18n="not_t">Noticias reales</h2>
+    <p class="muted"><span data-i18n="not_sub">El robot las trae cada 30 minutos y la app busca en vivo al abrir.</span> <span id="robotStamp"></span></p>
+  </div>
+  <div class="searchbar">
+    <input id="q" type="search" placeholder="Buscar en las noticias…" data-i18n-ph="buscar">
+    <div class="seg" id="filtro">
+      <button data-f="todo" class="on" data-i18n="f_todo">Todo</button>
+      <button data-f="proyecto" data-i18n="f_proy">Proyecto</button>
+      <button data-f="arizabaleta">Arizabaleta</button>
+    </div>
+    <span id="liveState" class="state"></span>
+  </div>
+  <div id="newsList" class="grid-news"></div>
+</section>
+
+<!-- PETICIÓN -->
+<section id="peticion" class="block">
+  <div class="pet">
+    <div class="head">
+      <p class="eyebrow" data-i18n="pet_ey">Participe</p>
+      <h2 data-i18n="pet_t">Derecho de petición: exijamos saber qué pasa</h2>
+      <p class="muted" data-i18n="pet_sub">Artículo 23 de la Constitución y Ley 1755 de 2015. Llénelo una vez y envíelo de una sola vez a todas las entidades.</p>
+    </div>
+    <div class="pet-grid">
+      <form id="petForm" class="pet-form">
+        <label><span data-i18n="f_nombre">Nombre completo</span><input name="nombre" required></label>
+        <label><span data-i18n="f_cedula">Cédula</span><input name="cedula" inputmode="numeric" required></label>
+        <label><span data-i18n="f_ciudad">Ciudad</span><input name="ciudad" value="Caucasia, Antioquia" required></label>
+        <label><span data-i18n="f_correo">Correo para la respuesta</span><input name="correo" type="email" required></label>
+        <fieldset><legend data-i18n="f_dest">Se envía a</legend><div id="destinos" class="dest"></div></fieldset>
+        <div class="row">
+          <button type="submit" class="btn solid big" data-i18n="enviar">Enviar a todas de una vez</button>
+          <button type="button" id="btnCopy" class="btn line big" data-i18n="copiar">Copiar texto</button>
+          <button type="button" id="btnWa" class="btn line big" data-i18n="whatsapp">Compartir por WhatsApp</button>
+        </div>
+        <p class="muted small" data-i18n="pet_nota">Las entidades tienen 15 días hábiles para responder. Guarde el correo enviado como prueba.</p>
+      </form>
+      <pre id="petText" class="pet-text"></pre>
+    </div>
+  </div>
+</section>
+
+<section class="block sources">
+  <h2 class="h3" data-i18n="fuentes">Fuentes y créditos</h2>
+  <ul id="fuentes"></ul>
+  <p class="muted small" data-i18n="creditos">Las fotos de noticias y videos pertenecen a cada medio o canal enlazado. Fotos de respaldo de Wikimedia Commons: “Puerto Resistencia 05” de Remux (CC BY-SA 4.0) y “Avenida San Juan en las manifestaciones del 28 de abril de 2021, Medellín” (CC BY-SA 4.0).</p>
+</section>
+
+<footer class="foot">
+  <p><b>Vibras Positivas HM</b> · <span data-i18n="pie">App ciudadana e independiente. No pertenece a ningún partido ni entidad.</span></p>
+  <p>ley-anticapuchos.netlify.app · WhatsApp 311 770 0431</p>
+</footer>
+
+<script src="data/contenido.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+name: Robot de noticias (cada 30 min)
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore: ["data/noticias.json"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: robot-noticias
+  cancel-in-progress: false
+
+jobs:
+  noticias:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Foto de vista previa (si falta)
+        run: |
+          if [ ! -f img/og.jpg ]; then
+            curl -sL -A "Mozilla/5.0 VibrasBot" -o /tmp/og-src.jpg \
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Puerto_Resistencia_05.jpg?width=1600"
+            convert /tmp/og-src.jpg -resize 1200x630^ -gravity center -extent 1200x630 -quality 82 img/og.jpg
+          fi
+
+      - name: Traer noticias reales
+        run: node scripts/actualizar-noticias.mjs
+
+      - name: Guardar cambios
+        run: |
+          git config user.name "robot-vibras"
+          git config user.email "robot-vibras@users.noreply.github.com"
+          git add data/noticias.json img/og.jpg || true
+          git diff --cached --quiet || git commit -m "Robot: noticias $(TZ=America/Bogota date '+%Y-%m-%d %H:%M')"
+          git push
