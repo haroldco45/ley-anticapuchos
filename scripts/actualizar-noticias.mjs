@@ -46,7 +46,7 @@ async function bing(q, tema) {
       let link = tag(it, "link");
       const u = link.match(/[?&]url=([^&]+)/); if (u) link = decodeURIComponent(u[1]);
       let img = tag(it, "News:Image");
-      if (img) img = img.replace(/&w=\d+&h=\d+.*$/, "") + "&w=1200&h=675&c=7";
+      if (img) img = img.replace(/^http:/, "https:").replace(/&w=\d+&h=\d+.*$/, "") + "&w=1200&h=675&c=7";
       return { titulo: tag(it, "title"), medio: tag(it, "News:Source"), fecha: new Date(tag(it, "pubDate")).toISOString(), url: link, imagen: img, tema };
     }).filter(n => n.titulo && relevante(n.titulo, tema));
   } catch (e) { console.log("Bing:", e.message); return []; }
@@ -124,7 +124,14 @@ for (const n of mapa.values()) {
 
 const lista = [...mapa.values()].sort((a, b) => new Date(b.fecha) - new Date(a.fecha)).slice(0, 100);
 let revisadas = 0;
-for (const n of lista) if (!n.imagen && revisadas < 40) { n.imagen = await fotoReal(n.url); revisadas++; }
+for (const n of lista) {
+  if (n.imagen) n.imagen = n.imagen.replace(/^http:/, "https:");
+  const miniatura = !n.imagen || /bing\.com\/th/.test(n.imagen);
+  if (miniatura && !n.hd && revisadas < 40 && !/news\.google/.test(n.url)) {
+    const og = await fotoReal(n.url); revisadas++; n.hd = true; // foto original del medio, en alta
+    if (og) n.imagen = og.replace(/^http:/, "https:");
+  } else if (!n.imagen && revisadas < 40) { n.imagen = await fotoReal(n.url); revisadas++; }
+}
 
 const vmap = new Map((prev.videos || []).map(v => [v.id, v]));
 for (const q of VIDEOS_Q) for (const v of await videos(q)) vmap.set(v.id, { ...vmap.get(v.id), ...v, visto: vmap.get(v.id)?.visto || new Date().toISOString() });
