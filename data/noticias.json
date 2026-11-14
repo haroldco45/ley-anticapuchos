@@ -1,7 +1,12 @@
 {
-  "actualizado": "2026-11-14T03:45:46-05:00",
+  "actualizado": "2026-11-14T10:39:36-05:00",
   "fuente": "Google Noticias y YouTube (robot cada 30 min)",
   "fotos": [
+    {
+      "src": "https://revistaraya.com/images/2026opinion/santiago133-salinas-sumario.jpg",
+      "medio": "Revista RAYA",
+      "url": "https://revistaraya.com/santiago-salinas/1942-capuchos-habra-para-rato.html"
+    },
     {
       "src": "https://www.semana.com/resizer/v2/KHTF3GE3PVFB3P5LK7BZXUQTQI.jpeg?auth=de06a98013a11087a422b84144aaf248520835e52e795e4469417dd96cd83c31&smart=true&quality=75&width=1280&height=720",
       "medio": "Revista Semana",
@@ -36,208 +41,220 @@
       "src": "https://www.prensa-latina.cu/wp-content/uploads/2026/11/colombia-protesta-encapuchados-1.jpg",
       "medio": "Prensa Latina",
       "url": "https://www.prensa-latina.cu/2026/11/06/ley-anticapuchos-genera-polemica-en-congreso-de-colombia/"
-    },
-    {
-      "src": "https://www.infobae.com/resizer/v2/26UJ2SYPDZCWVBVU6GUHYKLECI.png?auth=5b83f49e798f461f0d9c100d41783b9c2424abb1fde78f1e6da6ef749827e5cf&smart=true&width=1024&height=512&quality=85",
-      "medio": "Infobae",
-      "url": "https://www.infobae.com/colombia/2026/11/06/jorge-baron-jr-mostro-su-respaldo-a-la-ley-anticapuchos-que-avanza-en-el-congreso-fui-amedrentado/"
     }
   ],
   "videos": [
     {
-      "id": "4UpVhvSjIyk",
-      "titulo": "LEY ANTI-CAPUCHOS! Entrevista a los Representantes Arizabaleta y Briceño (PARTE 2)",
-      "canal": "Munir Cardenas ",
-      "hace": "hace 1 m",
-      "imagen": "https://i.ytimg.com/vi/4UpVhvSjIyk/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:46.259Z"
-    },
-    {
-      "id": "cxPZsyRT4iE",
-      "titulo": "“Con la ley anticapuchos quien oculte su rostro para hacer vandalismo pagará hasta 8 años de cárcel”",
-      "canal": "Diego Martinez Lloreda",
-      "hace": "hace 2 m",
-      "imagen": "https://i.ytimg.com/vi/cxPZsyRT4iE/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:46.259Z"
-    },
-    {
-      "id": "jPCfbqH1WE8",
-      "titulo": "La ley Anticapuchos de Arizabaleta.",
-      "canal": "El martillo de chaski",
-      "hace": "hace 1 m",
-      "imagen": "https://i.ytimg.com/vi/jPCfbqH1WE8/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:46.259Z"
-    },
-    {
-      "id": "o1bMuX-G2JE",
-      "titulo": "Jaime Arizabaleta denuncia amenazas del ELN por impulsar la  ‘Ley Anticapuchos’ | Dos Puntos",
-      "canal": "Caracol Radio",
-      "hace": "hace 2 m",
-      "imagen": "https://i.ytimg.com/vi/o1bMuX-G2JE/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:46.259Z"
-    },
-    {
-      "id": "lPxuZXA6zUY",
-      "titulo": "Proyecto Anticapuchos pasa el primer debate | Arizabaleta habla de la recusación",
-      "canal": "Canta Vallenato",
-      "hace": "hace 2 días",
-      "imagen": "https://i.ytimg.com/vi/lPxuZXA6zUY/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:46.259Z"
-    },
-    {
-      "id": "uCCEncAVH0s",
-      "titulo": "Congresistas del Centro Democrático, a punto de irse a los golpes por Ley Anticapuchos",
-      "canal": "Agencia Periodismo Investigativo",
-      "hace": "hace 3 sem.",
-      "imagen": "https://i.ytimg.com/vi/uCCEncAVH0s/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:46.259Z"
-    },
-    {
-      "id": "fsR-nYbRhEc",
-      "titulo": "¡Se calentó el Centro Democrático! Arizabaleta y Uscátegui chocan por la Ley Anticapuchos",
-      "canal": "El pailas",
-      "hace": "hace 3 sem.",
-      "imagen": "https://i.ytimg.com/vi/fsR-nYbRhEc/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:46.259Z"
-    },
-    {
-      "id": "w24vQhhLzDE",
-      "titulo": "DA - 11 de ago 2026 I Diálogos con Andrés I Jaime Arizabaleta",
-      "canal": "Canal Congreso Colombia ",
-      "hace": "hace 3 m",
-      "imagen": "https://i.ytimg.com/vi/w24vQhhLzDE/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:45.561Z"
-    },
-    {
-      "id": "bXmR9Kfki8s",
-      "titulo": "¡LEY ANTI-CAPUCHOS! Entrevista al Representante Jaime Arizabaleta. (PARTE 1)",
-      "canal": "Munir Cardenas ",
-      "hace": "hace 2 m",
-      "imagen": "https://i.ytimg.com/vi/bXmR9Kfki8s/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:45.561Z"
-    },
-    {
-      "id": "3tS1391zoIs",
-      "titulo": "Jaime Arizabaleta cuenta qué ocurrió durante su discusión con José Jaime Uscátegui…",
-      "canal": "Santiago Vélez",
-      "hace": "hace 2 sem.",
-      "imagen": "https://i.ytimg.com/vi/3tS1391zoIs/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:45.561Z"
-    },
-    {
-      "id": "g1ZUXGg5kh8",
-      "titulo": "¡Palazo al Petrismo! Congresita Jaime Aristizabaleta defendió la ley anticapuchos y genera debate",
-      "canal": "La Capital Vallenata y En La Rumba Miami",
-      "hace": "hace 2 m",
-      "imagen": "https://i.ytimg.com/vi/g1ZUXGg5kh8/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:45.561Z"
-    },
-    {
-      "id": "kmB-khR5RFk",
-      "titulo": "¡“Quien defiende una causa justa no se esconde”! Arizabaleta confronta a encapuchados",
-      "canal": "Canta Vallenato",
-      "hace": "hace 9 días",
-      "imagen": "https://i.ytimg.com/vi/kmB-khR5RFk/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:45.561Z"
-    },
-    {
-      "id": "mzU8sLYxaZw",
-      "titulo": "¡Hay lloratón! Jaime Arizabaleta se burla de la izquierda tras ser aprobada la Ley de sometimiento",
-      "canal": "La Capital Vallenata y En La Rumba Miami",
-      "hace": "hace 9 días",
-      "imagen": "https://i.ytimg.com/vi/mzU8sLYxaZw/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:45.561Z"
-    },
-    {
-      "id": "OS2SQfkdOsE",
-      "titulo": "¡Estalla Polémica en el Congreso! Jaime Arizabaleta responde fuertemente al izquierdoso de Mondragón",
-      "canal": "La Capital Vallenata y En La Rumba Miami",
-      "hace": "hace 10 días",
-      "imagen": "https://i.ytimg.com/vi/OS2SQfkdOsE/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:45.561Z"
-    },
-    {
-      "id": "5ESlXLY9A5A",
-      "titulo": "Ley anticapuchos llegará al congreso",
-      "canal": "Diario Digital LARAZONCO",
-      "hace": "hace 3 m",
-      "imagen": "https://i.ytimg.com/vi/5ESlXLY9A5A/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:44.898Z"
-    },
-    {
-      "id": "b5Oh7V6BSL8",
-      "titulo": "Dura pelea por la ley anticapuchos: críticas al proyecto por posible criminalización de la protesta",
-      "canal": "Blu Radio",
-      "hace": "hace 9 días",
-      "imagen": "https://i.ytimg.com/vi/b5Oh7V6BSL8/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:44.898Z"
-    },
-    {
-      "id": "yYrOJ4BUMYg",
-      "titulo": "Se viene la ley anti capuchos, se acabó el desorden de los MAMERTOS de Petro #politica #noticia",
-      "canal": "No gire a la izquierda ",
-      "hace": "hace 3 m",
-      "imagen": "https://i.ytimg.com/vi/yYrOJ4BUMYg/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:44.898Z"
-    },
-    {
-      "id": "vGksGgBhkuY",
-      "titulo": "🚨 ¡DEBATE PICADO EN EL CONGRESO! Arranca discusión de la Ley Anticapuchos con pedidos de archivo 🏛️",
-      "canal": "EL RADAR DIARIO DIGITAL En el sitio de la noticia",
-      "hace": "hace 9 días",
-      "imagen": "https://i.ytimg.com/vi/vGksGgBhkuY/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:44.898Z"
-    },
-    {
-      "id": "CCbvYifyy9U",
-      "titulo": "EN VIVO: Ley Anticapuchos: Así Sancionarán a Quienes Delinquen Bajo el Anonimato en Protestas",
-      "canal": "Mundo Noticias",
-      "hace": "hace 1 m",
-      "imagen": "https://i.ytimg.com/vi/CCbvYifyy9U/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:44.898Z"
-    },
-    {
-      "id": "RxW_PoaDjp0",
-      "titulo": "DURO CHOQUE entre Alfredo Mondragón y Jaime Arizabaleta por la \"Ley Anticapuchos\" | Julio Sánchez",
-      "canal": "Julio Sánchez Cristo",
-      "hace": "hace 3 m",
-      "imagen": "https://i.ytimg.com/vi/RxW_PoaDjp0/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:44.898Z"
-    },
-    {
-      "id": "7e6rRrZTYUk",
-      "titulo": "Alcance de la Ley Anticapuchos, explicado por uno de sus ponentes",
-      "canal": "Gs Noticias",
-      "hace": "hace 8 días",
-      "imagen": "https://i.ytimg.com/vi/7e6rRrZTYUk/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:44.898Z"
-    },
-    {
-      "id": "DbwAdEWGRBQ",
-      "titulo": "Jaime Arizabaleta PIDE sentido de urgencia para la ley anticapuchos",
+      "id": "rRMlEHyrp4k",
+      "titulo": "Jaime Arizabaleta pide sentido de urgencia para el proyecto de LEY ANTICAPUCHOS",
       "canal": "RevistaSemana",
       "hace": "hace 1 m",
-      "imagen": "https://i.ytimg.com/vi/DbwAdEWGRBQ/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:44.898Z"
+      "imagen": "https://i.ytimg.com/vi/rRMlEHyrp4k/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:36.956Z"
     },
     {
-      "id": "dc__q4MmwY4",
-      "titulo": "¡LEY ANTICAPUCHOS: PRIMER GOLPE EN EL CONGRESO!",
-      "canal": "Munir Cardenas ",
-      "hace": "hace 7 días",
-      "imagen": "https://i.ytimg.com/vi/dc__q4MmwY4/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:44.898Z"
-    },
-    {
-      "id": "wcjS6qQZEwg",
-      "titulo": "RECHAZAN LEY ANTI CAPUCHOS EN CÁMARA DE REPRESENTANTES",
-      "canal": "Izquierda Total Noticias",
+      "id": "4qii4f65FXk",
+      "titulo": "EN VIVO: Ley Anticapuchos: Así Sancionarán a Quienes Delinquen Bajo el Anonimato en Protestas",
+      "canal": "Armando Gamboa News",
       "hace": "hace 2 m",
-      "imagen": "https://i.ytimg.com/vi/wcjS6qQZEwg/hqdefault.jpg",
-      "visto": "2026-11-14T08:45:44.898Z"
+      "imagen": "https://i.ytimg.com/vi/4qii4f65FXk/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:36.956Z"
+    },
+    {
+      "id": "T2alZfszFQ0",
+      "titulo": "APRUEBAN LEY ANTICAPUCHOS EN PRIMER DEBATE",
+      "canal": "No gire a la izquierda ",
+      "hace": "hace 9 días",
+      "imagen": "https://i.ytimg.com/vi/T2alZfszFQ0/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:36.956Z"
+    },
+    {
+      "id": "4rnqJdj_uok",
+      "titulo": "Plantean ley anticapuchos en Colombia",
+      "canal": "RevistaSemana",
+      "hace": "Transmitido hace 11 m",
+      "imagen": "https://i.ytimg.com/vi/4rnqJdj_uok/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:36.956Z"
+    },
+    {
+      "id": "J2OBQjQBd8Y",
+      "titulo": "Ley anticapuchos",
+      "canal": "Laura María Naranjo Paredes",
+      "hace": "hace 2 m",
+      "imagen": "https://i.ytimg.com/vi/J2OBQjQBd8Y/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:36.956Z"
+    },
+    {
+      "id": "YQ719zttqJ8",
+      "titulo": "Jaime Arizabaleta cuenta lo que pasó en el estalido social",
+      "canal": "Santiago Vélez",
+      "hace": "Transmitido hace 2 sem.",
+      "imagen": "https://i.ytimg.com/vi/YQ719zttqJ8/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:36.956Z"
+    },
+    {
+      "id": "vLLj8lwPeU0",
+      "titulo": "🚨Urgente- llega la ley anti-capuchos al congreso: ¡tiemblan los enmascarados!",
+      "canal": "Manuel J Velez",
+      "hace": "hace 3 m",
+      "imagen": "https://i.ytimg.com/vi/vLLj8lwPeU0/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:36.956Z"
+    },
+    {
+      "id": "AIeSo0VZv6c",
+      "titulo": "El representante Jaime Arizabaleta protagonizó un fuerte discurso durante una sesión del Congreso.",
+      "canal": "Nación Costeña",
+      "hace": "hace 2 m",
+      "imagen": "https://i.ytimg.com/vi/AIeSo0VZv6c/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:36.363Z"
+    },
+    {
+      "id": "bNovUxMzrSA",
+      "titulo": "Jaime Arizabaleta. Candidato Cámara de Representantes",
+      "canal": "AD NOTICIAS",
+      "hace": "hace 8 m",
+      "imagen": "https://i.ytimg.com/vi/bNovUxMzrSA/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:36.363Z"
+    },
+    {
+      "id": "yO-wixgZSOo",
+      "titulo": "Propuestas de Jaime Arizabaleta, candidato a la Cámara de Representantes.",
+      "canal": "Jaime Arizabaleta",
+      "hace": "hace 8 m",
+      "imagen": "https://i.ytimg.com/vi/yO-wixgZSOo/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:36.363Z"
+    },
+    {
+      "id": "SDFeJ20LC4s",
+      "titulo": "Representante JAIME ARIZABALETA",
+      "canal": "Efraín Alberto Restan hincapie",
+      "hace": "hace 12 días",
+      "imagen": "https://i.ytimg.com/vi/SDFeJ20LC4s/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:36.363Z"
+    },
+    {
+      "id": "q9NwLz4Uhhs",
+      "titulo": "ANTICAPUCHAS EN EL CONGRESO! | \"Una causa justa no necesita capucha\": Jaime Arizabaleta",
+      "canal": "News Global FC",
+      "hace": "hace 9 días",
+      "imagen": "https://i.ytimg.com/vi/q9NwLz4Uhhs/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:36.363Z"
+    },
+    {
+      "id": "vpPex2TAti0",
+      "titulo": "¡“Hipócritas”! Jaime Arizabaleta responde a Carrascal y arremete contra la izquierda en pleno debate",
+      "canal": "Canta Vallenato",
+      "hace": "hace 10 días",
+      "imagen": "https://i.ytimg.com/vi/vpPex2TAti0/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:36.363Z"
+    },
+    {
+      "id": "2hRqBX1bsIw",
+      "titulo": "¡UN GESTO QUE DICE TODO! Jaime Arizabaleta sorprende a policías frente al Congreso",
+      "canal": "Canta Vallenato",
+      "hace": "hace 4 sem.",
+      "imagen": "https://i.ytimg.com/vi/2hRqBX1bsIw/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:36.363Z"
+    },
+    {
+      "id": "-Yr-EsxSN8Q",
+      "titulo": "Jaime Arizabaleta: \"Si Iván Cepeda es presidente, se acaba la democracia\" - CURUL ABIERTA",
+      "canal": "CW+ Noticias",
+      "hace": "hace 7 m",
+      "imagen": "https://i.ytimg.com/vi/-Yr-EsxSN8Q/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:36.363Z"
+    },
+    {
+      "id": "z5svfXb3lwc",
+      "titulo": "Jaime Arizabaleta: asegura que los videos respaldarían las denuncias de Deicy Jiménez",
+      "canal": "Diario Digital LARAZONCO",
+      "hace": "hace 8 días",
+      "imagen": "https://i.ytimg.com/vi/z5svfXb3lwc/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:36.363Z"
+    },
+    {
+      "id": "sxl416T5tZo",
+      "titulo": "Pillaron a Arizabaleta chillando por votos y le cayeron encima",
+      "canal": "Colombia Hoy 🇨🇴",
+      "hace": "hace 8 m",
+      "imagen": "https://i.ytimg.com/vi/sxl416T5tZo/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:36.363Z"
+    },
+    {
+      "id": "2acTGZ0Byio",
+      "titulo": "Jaime Arizabaleta. Candidato a la cámara por el valle del cauca",
+      "canal": "AD NOTICIAS",
+      "hace": "hace 8 m",
+      "imagen": "https://i.ytimg.com/vi/2acTGZ0Byio/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:36.363Z"
+    },
+    {
+      "id": "qLu-oTsoSCc",
+      "titulo": "LEY ANTICAPUCHOS A DEBATE, PALAZO AL PETRISMO",
+      "canal": "No gire a la izquierda ",
+      "hace": "hace 2 m",
+      "imagen": "https://i.ytimg.com/vi/qLu-oTsoSCc/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:35.723Z"
+    },
+    {
+      "id": "UrxH3M2mmqk",
+      "titulo": "EN VIVO: Ley Anticapuchos: Así Sancionarán a Quienes Delinquen Bajo el Anonimato en Protestas",
+      "canal": "El Diario Noticias",
+      "hace": "hace 2 m",
+      "imagen": "https://i.ytimg.com/vi/UrxH3M2mmqk/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:35.723Z"
+    },
+    {
+      "id": "T0qltex20SQ",
+      "titulo": "EN VIVO: Ley Anticapuchos: Así Sancionarán a Quienes Delinquen Bajo el Anonimato en Protestas",
+      "canal": "La Gran Curiosidad  ",
+      "hace": "hace 1 m",
+      "imagen": "https://i.ytimg.com/vi/T0qltex20SQ/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:35.723Z"
+    },
+    {
+      "id": "Y7zFN5elMFM",
+      "titulo": "‘Ley anticapuchos’: Hasta 8 años de prisión para quien oculte su rostro en protestas #shorts #short",
+      "canal": "Político Latam",
+      "hace": "hace 2 m",
+      "imagen": "https://i.ytimg.com/vi/Y7zFN5elMFM/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:35.723Z"
+    },
+    {
+      "id": "p_mb3R81FBQ",
+      "titulo": "Ley Anticapuchos: qué falta para que sea ley",
+      "canal": "La era del tigre",
+      "hace": "hace 4 días",
+      "imagen": "https://i.ytimg.com/vi/p_mb3R81FBQ/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:35.723Z"
+    },
+    {
+      "id": "wo3B363z4ig",
+      "titulo": "Ley Anticapuchos: Cámara aprueba primer debate para sancionar rostros cubiertos en protestas",
+      "canal": "Noticias LAT | Última Hora",
+      "hace": "hace 8 días",
+      "imagen": "https://i.ytimg.com/vi/wo3B363z4ig/hqdefault.jpg",
+      "visto": "2026-11-14T15:39:35.723Z"
     }
   ],
   "noticias": [
+    {
+      "titulo": "Capuchos habrá para rato",
+      "medio": "Revista Raya",
+      "fecha": "2026-11-14T13:40:59.000Z",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMXA0dTI2V01wcTYtWEdJXzhxR2NHdkc4T2hkWkVSTWU5anR5bGRMNXU2MDk0OXJoTTlDaDRuMzZFZjcyRU9yTXhXVGl6bHF4bGpPb1MtdmRlMGprWTM0UlFwc2tzZGFfZHdXRHp3a1lDS09XTjRqdnBtZDNBM2JpRg?oc=5",
+      "imagen": "",
+      "tema": "proyecto"
+    },
+    {
+      "titulo": "Capuchos habr&#225; para rato",
+      "medio": "Revista RAYA",
+      "fecha": "2026-11-13T16:00:00.000Z",
+      "url": "https://revistaraya.com/santiago-salinas/1942-capuchos-habra-para-rato.html",
+      "imagen": "https://revistaraya.com/images/2026opinion/santiago133-salinas-sumario.jpg",
+      "tema": "proyecto",
+      "hd": true
+    },
     {
       "titulo": "Aplazan por cuarta vez indagatoria contra Gloria Arizabaleta por intentar suspender a Petro",
       "medio": "Revista Semana",
@@ -1075,22 +1092,6 @@
       "medio": "Cámara de representantes",
       "fecha": "2026-09-17T07:00:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONVpDZWlZVGpTakRsRzdKQTZWcXlmZjg4T1ZSV3JkTDFhQmtoWFBFZGtselNVanoxZ0xtNExrN3N2a0IwOF81bk43MjljaU1fSmNQaWNFc0JxdmZ6a0l2eEJKbUtxeV9DMlhIWDROdTRwblRjcjJrUWZ5alIwb3A5SnBxRFJSWmtTaHJKeGt6YTdqME5VLXVoeUl3WDdsLTJqTGhFV1Rwd0JGR1owakJEWWY5SWthdjhSanpWZ05Dbms?oc=5",
-      "imagen": "",
-      "tema": "proyecto"
-    },
-    {
-      "titulo": "Jaime Arizabaleta pide mensaje de urgencia para “ley anticapuchos” y anuncia apoyo irrestricto para recuperar universidades públicas",
-      "medio": "Revista Semana",
-      "fecha": "2026-09-14T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNc2I5VHBsYjRtX1FyQnpnam1Wc2hITUcwQ1duRnV0UmZtNDlCNnRES0dWakdyUlhsbHVEMFlvemxnSUpSX0RNckVLdERpdDVBVmpra3p1TVQ3ZVFpTDlRamMyWVV4Y1VwTG1vYWpNSU0xbkhCS2l1eGxvVTlDdmpSV3d1M3BQQnFCWGtFM3JrZXVxYkhHUFlod1hwV3RsRkFPU2NsdGhpMUtnS1hBU2xhanJuZGYta1ZQdzhaRVN2R3VhNXo4eGhKT3B6b3VoaExudXNCUEVaWVdQYTRwOC1lQVBTcEM3aEdITzJ0R0tXY2l5YlFOY2hBMWVrdUtWa3ZwQ3FPTnpRM2lSYmxhQWRuUXA1RdIBmAJBVV95cUxNUS1LZ29pRU9GR3cxY1ZUWHdQYlN5cmwxUnBSLTMwREFwYUx4enNwWXdmbGJ6aHRpNTRLWjJsMU9vNE9lSzYzV3JUYkJLNGxTWmI4NGdZWG4ta3FNaHRXUFVlSzNWaEJIV0doRTc2b1hCSTdBTy1LUGZGZWZibjJZdVhmQ0dFeXFfRjZiem9xRHlSTnJ5cm4tYzdtRTNBNDJtMXBvMUFsUUZSMkQ3RUxQVWc2U2IxOFBnS2p3WGhaXzFORGt3WkhrcV9LNVRNSG5fdUYtU0tOdUZ1S0dsaGtOWUhTSUVKLWJZR21LYjBneERmS09VaWVOMjd4RFA4dW5QZnkwenVsRG1ZZGxaRTZkeXBWTGlKNnpp?oc=5",
-      "imagen": "",
-      "tema": "proyecto"
-    },
-    {
-      "titulo": "Proyecto de ley busca sanciones penales para encapuchados en Colombia: ¿Qué propone la iniciativa?",
-      "medio": "Newsroom RCN Radio",
-      "fecha": "2026-09-13T15:40:43.000Z",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRkpBNjNIMktHd2xKeUNZNUlWYUVGemhIY2tiajhiMEtZNFo3eHM3MGdqeUdfOGZIbjJ0VkhMdzVRVWxtbllFeGRfS3NTTTd6dEVSdFg2ZXdVR2hGOU05STd3dXRGajA2RjV3dmFmV0F3b2R1S1M3RXlHaTNua2VXdWprOGM5YTVCcDFzTnh4cVRRUnRfNVgxM25HSHUwXzM0VjdLS3RqQUtQemlwMUFTd1pwaXB0bW1EYnBETFV4VS1HYzdoYkZhOERQenpMUVE?oc=5",
       "imagen": "",
       "tema": "proyecto"
     }
